@@ -1,0 +1,70 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    color: white;
+    font-size: 150px;
+    font-family: "Gantari";
+}
+
+h2 {
+    color: white;
+    font-size: 60px;
+    font-family: "Gantari";
+}
+
+.container {
+    height: 400px;
+    position: relative;
+}
+
+.nametag-leftgoes {
+    margin: 0;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.nametag-real {
+    margin: 0;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+} 
+
+.socials-container {
+    display: grid;
+}
+
+.social-container {
+    margin: max(20px, 1%);
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-column-gap: 20px;
+}
+
+.social-info {
+    vertical-align: middle;
+    color: white;
+    font-size: 30px;
+    font-family: "Gantari";
+    text-align: left;
+}
+
+.icon {
+    display: block;
+    margin-left: auto;
+    margin-right: 0;
+    align-items: center;
+    filter: invert(1);
+    width: 100px;
+}
+
+a {
+    text-decoration: none;
+}
