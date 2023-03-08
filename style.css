@@ -2,69 +2,68 @@ body {
     background-color: black;
 }
 
-h1 {
-    color: white;
-    font-size: 150px;
-    font-family: "Gantari";
-}
-
-h2 {
-    color: white;
-    font-size: 60px;
-    font-family: "Gantari";
-}
-
-.container {
-    height: 400px;
-    position: relative;
-}
-
-.nametag-leftgoes {
-    margin: 0;
-    position: absolute;
-    top: 30%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-}
-
-.nametag-real {
-    margin: 0;
-    position: absolute;
-    top: 70%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-} 
-
-.socials-container {
-    display: grid;
-}
-
-.social-container {
-    margin: max(20px, 1%);
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    grid-column-gap: 20px;
-}
-
-.social-info {
-    vertical-align: middle;
-    color: white;
-    font-size: 30px;
-    font-family: "Gantari";
-    text-align: left;
-}
-
-.icon {
-    display: block;
-    margin-left: auto;
-    margin-right: 0;
-    align-items: center;
-    filter: invert(1);
-    width: 100px;
-}
-
 a {
     text-decoration: none;
+}
+
+p {
+    color: white;
+    font-family: "Lora";
+}
+
+.title-text-container {
+    height: 500px;
+}
+
+.title-text-luminance-container {
+    height: 200px;
+}
+
+.title-text-luminance {
+    font-family: "Bebas Neue";
+    font-size: 180px;
+    text-align: center;
+    letter-spacing: 10px;
+}
+
+.title-text-realname-container {
+    height: 240px;
+}
+
+.title-text-realname {
+    font-family: "Bebas Neue";
+    font-size: 50px;
+    text-align: center;
+    letter-spacing: 4px;
+}
+
+.social-info-container {
+    height: 150px;
+    margin: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1.2fr;
+}
+
+.social-info-icon {
+    filter: invert(1);
+    height: 130px;
+}
+
+.social-info-icon-container {
+    margin: auto;
+    margin-right: 100px;
+}
+
+.social-info-text {
+    font-size: 50px;
+}
+
+.social-info-text-container {
+    margin: auto;
+    margin-left: 5px;
+}
+
+.divide {
+    margin: 50px;
+    border: 1px solid white;
 }
